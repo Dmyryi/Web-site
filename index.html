@@ -1,104 +1,210 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Goloborodko</title>
     
 </head>
 <body>
     <header class="header">
-        <nav class="header-logo">
-        <img src="images/header/Hello.png" alt="Лого" width=200px, height=180px>
-        <ul>
+        <div class="container">
+            <nav class="header-logo">
+                <a href="">
+            <img class="header-img" src="images/header/Hello.png" alt="Лого" width=200px, height=180px>
+                </a>
+            <ul class="header-items">
+    
+        <li class="header-list list">
+            <a class="header-link link" href="index.html">Головна</a>
+        </li>
+        <li class="header-list list">
+            <a class="header-link link" href="">Біографія</a>
+        </li>
+        <li class="header-list list">
+            <a class="header-link link" href="">Новини</a>
+        </li>
+        <li class="header-list list">
+            <a class="header-link link" href="">Твори</a>
+        </li>
+        <li class="header-list list">
+            <a class="header-link link" href="">Галерея</a>
+        </li>
+    </ul>
+    
+    <button class="button" type="button">Зв'язатись з нами</button>
+    </nav>
+        </div>
+       
+</header>   
+<div class="container menu-button">
+    <ul class="header-menu">
+        <li class="menu-list list">
+            <button class="buttons" type="button"><a class="menu-link link" href="#biografia">Біографія</a></button>
+        </li>
+        <li class="menu-list list">
+            <button class="buttons" type="button">
+                <a class="menu-link link" href="#novini">
+Новини
+            </a></button>
+        </li>
+        <li class="menu-list list">
+            <button class="buttons" type="button">
+                <a class="menu-link link" href="#tvoti">
+Твори
+            </a></button>
+        </li>
+    <li class="menu-list list">
+        <button class="buttons" type="button">
+            <a class="menu-link link" href="#organizatory">
+                Організатори
+            </a></button>
+    </li>
+    </ul>
+    </div>
 
-            <li>
-                <a href="">Головна</a>
+    <main>
+<section class="container section-background">
+<p><h2 class="heading">Моє слово не вогнисте,</br>
+В моїй поезії – метелики, бджоли.</br>
+Але я засвідчую перед світом, Богом і людьми:</br>
+Тут Україна, і ви українці.</br>
+В.Голобородько</br>
+Поет,який пройшов через багато випробувань життя</h2></br>
+</p>
+<button class="map-btn" type="button"><a class="map-text link" href="">Поет на мапі</a></button>
+</section>
+<section class="biografy">
+    
+        <h2 class="heading-1" id="biografia">
+            <a>Біографія</a></h2>
+            <div class="biografy-textimg"> 
+        <img src="/images/img/unnamed.jpg">
+    <h2 class="biografy-text">Мене не друкували майже 20 років, я пройшов певний шлях випробувань у літературному житті. Поза друком, славою,
+        гонорарами і повагою вдячних читачів. В інтерв’ю, біографії довгий час писав і розказував про те, як мене переслідували,
+        відраховували, як я страждав… А тоді зрозумів, що не можна цього робити: люди люблять успішних людей. А у мене життя
+        склалося по-іншому трохи</h2>
+    </div>
+   
+<button class="buttonse" type="button"><a class="buttonse-link link" href="biografy.html">Більш про життя</a></button>
+</section>
+<section class="novini">
+    <h2 class="novini-heading" id="novini">
+        Новини
+    </h2>
+    <div class="container">
+        <ul class="novini-list">
+            <li class="novini-items list">
+        <video poster="images/img/maxresdefault.jpg" src="video/novini/Novini_goloborodko-1.mp4" width="280" height="240" controls>
+        
+        </video>
             </li>
-            <li>
-                <a href="">Біографія</a>
+            <li class="novini-items list">
+                <video poster="images/img/sddefault.jpg" src="video/novini/Novini_goloborodko-2.mp4" width="280" height="240" controls></video>
             </li>
-            <li>
-                <a href="">Новини</a>
+            <li class="novini-items list">
+                <video poster="images/img/581678_w_300.jpg" src="video/novini/Novini-goloborodko-3.mp4" width="280" height="240" controls></video>
             </li>
-            <li>
-                <a href="">Твори</a>
-            </li>
-            <li>
-                <a href="">Галерея</a>
+            <li class="novini-items list">
+                <video poster="images/img/загружено.jpg" src="video/novini/Novini-goloborodko-4.mp4" width="280" height="240" controls></video>
             </li>
         </ul>
-        
-        <button class="button" type="button">Зв'язатись з нами</button>
-           <div>
-            <ul>
-                <li>
-                    <button class="buttons" type="button"><a href="#biografia">Біографія</a></button>
-                </li>
-                <li>
-                    <button class="buttons" type="button">
-                        <a href="#novini">
-        Новини
-                    </a></button>
-                </li>
-                <li>
-                    <button class="buttons" type="button">
-                        <a name=>
-        Твори
-                    </a></button>
-                </li>
-                <li>
-                    <button class="buttons" type="button">
-                        <a name=>
-                            Фотогалерея
-                        </a></button>
-                </li>
-            <li>
-                <button class="buttons" type="button">
-                    <a name=>
-                        Організатори
-                    </a></button>
+        <button class="buttons-link" type="button">
+            <a class="buttonse-link link" href="novini.html">Більш новин</a>
+        </button>
+    </div>
+
+   
+</section>
+<section>
+    <h2 class="heading-1" id="tvoti">Твори</h2>
+    <div class="container">
+        <ul class="tvory-list">
+            <li class="tvory-item list">
+                <img src="images/tvory/unnamed (1).jpg" width="300" height="340" alt="Летюче віконце">
             </li>
-            </ul>
-            </div>
-            </nav>
-            </header>
-            <main>
-        <section>
-        <p><h2>Моє слово не вогнисте,</br>
-        В моїй поезії – метелики, бджоли.</br>
-        Але я засвідчую перед світом, Богом і людьми:</br>
-        Тут Україна, і ви українці.</br>
-        В.Голобородько</br>
-        Поет,який пройшов через багато випробувань життя</h2></br>
-        </p>
-        <button class="map-btn" type="button">Поет на мапі</button>
-        </section>
-        <section>
-            <h2 id="biografia">
-                <a>Біографія</a></h2>
-            <img src="/images/img/unnamed.jpg"
-        <p>
-        Мене не друкували майже 20 років, я пройшов певний шлях випробувань у літературному житті. Поза друком, славою,
-            гонорарами і повагою вдячних читачів. В інтерв’ю, біографії довгий час писав і розказував про те, як мене переслідували,
-            відраховували, як я страждав… А тоді зрозумів, що не можна цього робити: люди люблять успішних людей. А у мене життя
-            склалося по-іншому трохи
-        </p>
-        <button class="buttonse" type="button">Більш про життя</button>
-        </section>
-        <section>
-            <h2 id="novini">
-                Новини
-            </h2>
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        </main>
-           <footer>
+            <li class="tvory-item list">
+                <img src="images/tvory/123421.jpg" width="300" height="340" alt="Ікар на метеликових крилах">
+            </li>
+            <li class="tvory-item list">
+                <img src="images/tvory/solovejkiv-teremok-23022010.jpg" width="300" height="340" alt="Соловейків теремок">
+            </li>
+            <li class="tvory-item list">
+                <img src="images/tvory/Без названия.jpg" width="300" height="340" alt="Хлопчик малює літо">
+            </li>
+        </ul>
+        <button class="buttonse"><a class="buttonse-link">Більше творів</a></button>
+    </div>
+   
+</section>
+<section>
+    <h2 class="heading-1" id="organizatory">Організатори</h2>
+    <div class="container div-1">
+        <ul class="">
+            <li class="orgnizatory-item list">
+                <a>
+                    <img src="images/organizatory/logo_ua-1.png" alt="МАНУ">
+                </a>
+            </li>
+            <li class="orgnizatory-item list">
+                <a>
+                    <img src="images/organizatory/Screenshot_2020-06-09-«Літературна-візитка-краю»-Головна1-300x111.png" alt="Інтерактивна мапа">
+                </a>
+                <h3>Інтерактивна мапа</h3>
+            </li>
+        </ul>
+        <ul>
+            <li class="orgnizatory-item list">
+                <a>
+                    <img src="images/organizatory/logo-nspu-4-300x125-1.png" alt="НСПУ">
+                </a>
+
+            </li>
+            <li class="orgnizatory-item list">
+                <a>
+                    <img src="images/organizatory/Screenshot_2020-06-09-«Літературна-візитка-краю»-Головна-300x114.png" alt="Фейсбук">
+                </a>
+                <h3>Сторінка конкурсу у Facebook</h3>
+            </li>
+        </ul>
+        <a>
+            <img src="images/organizatory/Screenshot_2020-12-24-Переможці-конкурсу-2020-–-Літературна-візитка-краю-300x232.png" alt="Сторінка конкурсу">
+            <h3>Сайт конкурсу</h3>
+        </a>
+    </div>
         
-           </footer>
-        </body>
-        </html>
+    
+    
+</section>
+</main>
+   <footer class="footer">
+       <div class="container">
+        <a href="">
+            <img class="header-img" src="images/header/Hello.png" alt="Лого" width=200px, height=200px>
+                </a>
+            <ul>
+    
+        <li class="list">
+            <a class="footer-link link" href="index.html">Головна</a>
+        </li>
+        <li class="list">
+            <a class="footer-link link" href="">Біографія</a>
+        </li>
+        <li class="list">
+            <a class="footer-link link" href="">Новини</a>
+        </li>
+        <li class="list">
+            <a class="footer-link link" href="">Твори</a>
+        </li>
+        <li class="list">
+            <a class="footer-link link" href="">Галерея</a>
+        </li>
+    </ul>
+    
+       </div>
+    
+   </footer>
+</body>
+</html>
